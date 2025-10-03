@@ -40,7 +40,7 @@ public class T00 {
             }
         }
         if (x % 2 != 0 && y % 2 == 0) {
-            System.out.println("Berbeda Jenis");
+            System.out.println("Berbeda jenis");
         } else {
             if (y % 2 != 0 && x % 2 == 0) {
                 System.out.println("Berbeda jenis");
