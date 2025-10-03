@@ -1,5 +1,4 @@
 //12S25021-Gabriel Ignasius Sinaga 12S25030-Nina Theresia Tarigan
-
 import java.util.*;
 import java.lang.Math;
 
