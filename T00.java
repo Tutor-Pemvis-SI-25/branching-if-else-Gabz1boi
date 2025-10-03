@@ -32,11 +32,11 @@ public class T00 {
         }
         if (x % 2 == 0 && y % 2 == 0) {
             tambah = x + y;
-            System.out.println("Hasil penjumlahan:" + tambah);
+            System.out.println("Hasil penjumlahan: " + tambah);
         } else {
             if (x % 2 != 0 && y % 2 != 0) {
                 kali = x * y;
-                System.out.println("Hasil perkalian:" + kali);
+                System.out.println("Hasil perkalian: " + kali);
             }
         }
         if (x % 2 != 0 && y % 2 == 0) {
