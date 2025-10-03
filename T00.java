@@ -1,9 +1,10 @@
 //12S25021-Gabriel Ignasius Sinaga 12S25030-Nina Theresia Tarigan
 
+
 import java.util.*;
 import java.lang.Math;
 
-public class JavaApplication {
+public class T00 {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
