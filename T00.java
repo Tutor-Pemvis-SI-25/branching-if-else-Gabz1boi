@@ -1,8 +1,9 @@
-//12S25021-Gabriel Ignasius Sinaga 12S25030-Nina Theresia Tarigan
+// 12S25021-Gabriel Ignasius Sinaga 12S25030-Nina Theresia Tarigan
+
 import java.util.*;
 import java.lang.Math;
 
-public class T00 {
+public class JavaApplication {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -39,7 +40,7 @@ public class T00 {
             }
         }
         if (x % 2 != 0 && y % 2 == 0) {
-            System.out.println("Berbeda jenis");
+            System.out.println("Berbeda Jenis");
         } else {
             if (y % 2 != 0 && x % 2 == 0) {
                 System.out.println("Berbeda jenis");
