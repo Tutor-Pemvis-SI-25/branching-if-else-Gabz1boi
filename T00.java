@@ -7,7 +7,7 @@ public class T00 {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
-        int x, y;
+        int x, y, tambah, kali;
 
         x = Integer.parseInt(input.nextLine());
         y = Integer.parseInt(input.nextLine());
@@ -31,10 +31,12 @@ public class T00 {
             }
         }
         if (x % 2 == 0 && y % 2 == 0) {
-            System.out.println("Hasil penjumlahan:" + x + y);
+            tambah = x + y;
+            System.out.println("Hasil penjumlahan:" + tambah);
         } else {
             if (x % 2 != 0 && y % 2 != 0) {
-                System.out.println("Hasil perkalian:" + x * y);
+                kali = x * y;
+                System.out.println("Hasil perkalian:" + kali);
             }
         }
         if (x % 2 != 0 && y % 2 == 0) {
