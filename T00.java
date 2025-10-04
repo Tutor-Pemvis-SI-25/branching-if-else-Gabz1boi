@@ -7,7 +7,7 @@ public class T00 {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
-        int x, y;
+        int x, y, tambah, kali;
 
         x = Integer.parseInt(input.nextLine());
         y = Integer.parseInt(input.nextLine());
@@ -23,24 +23,28 @@ public class T00 {
         }
         if (x > y) {
             System.out.println("Bilangan pertama lebih besar");
-        }
-        if (x < y) {
-            System.out.println("Bilangan kedua lebih besar");
-        }
-        if (y == x) {
-            System.out.println("Kedua Bilangan sama besar");
+        } else {
+            if (x < y) {
+                System.out.println("Bilangan kedua lebih besar");
+            } else {
+                System.out.println("Kedua bilangan sama besar");
+            }
         }
         if (x % 2 == 0 && y % 2 == 0) {
-            System.out.println("Hasil Penjumlahan: " + x + y);
-        }
-        if (x % 2 != 0 && y % 2 != 0) {
-            System.out.println("Hasil Perkalian: " + x * y);
+            tambah = x + y;
+            System.out.println("Hasil penjumlahan: " + tambah);
+        } else {
+            if (x % 2 != 0 && y % 2 != 0) {
+                kali = x * y;
+                System.out.println("Hasil perkalian: " + kali);
+            }
         }
         if (x % 2 != 0 && y % 2 == 0) {
-            System.out.println("Berbeda Jenis");
-        }
-        if (x % 2 == 0 && y % 2 != 0) {
-            System.out.println("Berbeda Jenis");
+            System.out.println("Berbeda jenis");
+        } else {
+            if (y % 2 != 0 && x % 2 == 0) {
+                System.out.println("Berbeda jenis");
+            }
         }
     }
 }
