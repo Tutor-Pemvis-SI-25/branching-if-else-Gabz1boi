@@ -7,7 +7,7 @@ public class T00 {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
-        int x, y, tambah, kali;
+        int x, y, tambah, kali;+
 
         x = Integer.parseInt(input.nextLine());
         y = Integer.parseInt(input.nextLine());
