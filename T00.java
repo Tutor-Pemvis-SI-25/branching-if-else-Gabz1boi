@@ -12,26 +12,26 @@ public class T00 {
         x = Integer.parseInt(input.nextLine());
         y = Integer.parseInt(input.nextLine());
         if (x % 2 == 0) {
-            System.out.println(" Bilangan pertama: Genap ");
+            System.out.println(" Bilangan pertama: Genap");
         } else {
-            System.out.println(" Bilangan pertama: Ganjil ");
+            System.out.println(" Bilangan pertama: Ganjil");
         }
         if (y % 2 == 0) {
-            System.out.println(" Bilangan kedua: Genap ");
+            System.out.println(" Bilangan kedua: Genap");
         } else {
             System.out.println(" Bilangan kedua: Ganjil");
         }
         if (x > y) {
-            System.out.println(" Bilangan pertama lebih besar ");
+            System.out.println(" Bilangan pertama lebih besar");
         }
         if (x < y) {
-            System.out.println(" Bilangan kedua lebih besar ");
+            System.out.println(" Bilangan kedua lebih besar");
         }
         if (y == x) {
-            System.out.println(" Kedua Bilangan sama besar ");
+            System.out.println(" Kedua Bilangan sama besar");
         }
         if (x % 2 == 0 && y % 2 == 0) {
-            System.out.println(" Hasil Penjumlahan :" + x + y);
+            System.out.println("Hasil Penjumlahan: " + x + y);
         }
         if (x % 2 != 0 && y % 2 != 0) {
             System.out.println("Hasil Perkalian: " + x * y);
